@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online_Bus_Ticket_Reservation", "Online_Bus_Ticket_Reservation\Online_Bus_Ticket_Reservation.csproj", "{B29A8BED-4214-47CB-9FFD-E265AD0E43ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{EC8D9F85-A052-40BD-A388-0FD79E2AE5CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{D359A428-B263-4309-BC1E-9D97D8DDD91E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{B29A8BED-4214-47CB-9FFD-E265AD0E43ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B29A8BED-4214-47CB-9FFD-E265AD0E43ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B29A8BED-4214-47CB-9FFD-E265AD0E43ED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EC8D9F85-A052-40BD-A388-0FD79E2AE5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC8D9F85-A052-40BD-A388-0FD79E2AE5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC8D9F85-A052-40BD-A388-0FD79E2AE5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC8D9F85-A052-40BD-A388-0FD79E2AE5CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D359A428-B263-4309-BC1E-9D97D8DDD91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D359A428-B263-4309-BC1E-9D97D8DDD91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D359A428-B263-4309-BC1E-9D97D8DDD91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D359A428-B263-4309-BC1E-9D97D8DDD91E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

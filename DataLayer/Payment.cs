@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace DataLayer
 {
-   public class Payment
+    public class Payment
     {
-        
+
         public int CustomerId { get; set; }
         public string OwnerName { get; set; }
         [Required]

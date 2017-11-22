@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace DataLayer
 {
-   public class Admin
+    public class Admin
     {
         [Key]
         public int AdminId { get; set; }
-        [Index(IsUnique =true)]
+        [Index(IsUnique = true)]
         [Required]
         public string Username { get; set; }
         [Required]

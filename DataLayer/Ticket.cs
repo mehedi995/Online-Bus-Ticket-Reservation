@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer
 {
-     public class Ticket
+    public class Ticket
     {
         [Key]
         public string TicketNumber { get; set; }

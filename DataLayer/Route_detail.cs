@@ -10,7 +10,7 @@ namespace DataLayer
     public class Route_detail
     {
         [Key]
-        public int RouteId { get; set;}
+        public int RouteId { get; set; }
         [Required]
         public string Deparature { get; set; }
         [Required]
