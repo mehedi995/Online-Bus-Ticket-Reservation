@@ -19,6 +19,8 @@ namespace DataLayer
 
         [ForeignKey("RouteId")]
         public Route_detail RouteDetail { get; set; }
+        public Time_Table TimeTables { get; set; }
+        public List<Payment> Payments { get; set; }
 
 
     }

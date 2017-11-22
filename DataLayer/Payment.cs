@@ -22,5 +22,6 @@ namespace DataLayer
         public Customer customer { get; set; }
         [ForeignKey("TicketNumber")]
         public Ticket ticket { get; set; }
+        public List<Book_detail> BookDetails { get; set; }
     }
 }
