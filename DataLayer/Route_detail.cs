@@ -18,5 +18,7 @@ namespace DataLayer
         public string ViaStation { get; set; }
         [Required]
         public double Rent { get; set; }
+
+        public List<Ticket> Tickets { set; get; }
     }
 }
