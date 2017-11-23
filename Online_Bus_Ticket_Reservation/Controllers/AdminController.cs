@@ -7,12 +7,13 @@ using System.Web.Mvc;
 
 namespace Online_Bus_Ticket_Reservation.Controllers
 {
-    public class HomeController : Controller
+    public class AdminController : Controller
     {
-        // GET: Home
+        private AdminRepository repo = new AdminRepository();
+        // GET: Admin
         public ActionResult Index()
         {
-            return View();
+            return View(this.repo.GetAll());
         }
     }
 }

@@ -50,9 +50,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.cs" />
+    <Compile Include="AdminRepository.cs" />
     <Compile Include="Book_detail.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="DataContext.cs" />
+    <Compile Include="IAdminRepository.cs" />
+    <Compile Include="IBook_detailRepository.cs" />
+    <Compile Include="ICustomerRepository.cs" />
+    <Compile Include="IPaymentRepository.cs" />
+    <Compile Include="IRoute_detailRepository.cs" />
+    <Compile Include="ITicketRepository.cs" />
+    <Compile Include="ITime_TableRepository.cs" />
     <Compile Include="Payment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Route_detail.cs" />

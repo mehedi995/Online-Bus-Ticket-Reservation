@@ -16,7 +16,7 @@ namespace DataLayer
         public string OwnerName { get; set; }
         [Required]
         public string Bank { get; set; }
-        [Required]
+       
         public int TicketNumber { get; set; }
         public double TotalRent { get; set; }
         public Customer customer { get; set; }

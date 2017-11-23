@@ -11,12 +11,9 @@ namespace DataLayer
     {
         [Key]
         public int RouteId { get; set; }
-        [Required]
         public string Deparature { get; set; }
-        [Required]
         public string Arrival { get; set; }
         public string ViaStation { get; set; }
-        [Required]
         public double Rent { get; set; }
 
         public List<Ticket> Tickets { set; get; }

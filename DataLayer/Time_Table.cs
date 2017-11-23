@@ -17,7 +17,6 @@ namespace DataLayer
         public DateTime DeparatureTime { get; set; }
         public DateTime ArrivalTime { get; set; }
         public Double Rent { get; set; }
-
         public Ticket Tickets { get; set; }
         public List<Book_detail> Book_details { get; set; }
 
