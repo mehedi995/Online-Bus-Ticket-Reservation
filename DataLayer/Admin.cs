@@ -12,7 +12,6 @@ namespace DataLayer
     {
         [Key]
         public int AdminId { get; set; }
-        [Index(IsUnique = true)]
         [Required]
         public string Username { get; set; }
         [Required]

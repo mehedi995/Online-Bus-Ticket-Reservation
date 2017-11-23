@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,23 +9,11 @@ namespace Online_Bus_Ticket_Reservation.Controllers
 {
     public class HomeController : Controller
     {
+        DataContext db = new DataContext();
+        // GET: Home
         public ActionResult Index()
         {
-            return View();
-        }
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            return View(db.Customers.ToList());
         }
     }
 }

@@ -12,7 +12,7 @@ namespace DataLayer
     {
         [Key]
         public int CustomerId { get; set; }
-        [Index(IsUnique = true)]
+        [Required]
         public string Name { get; set; }
         [Required]
         public string Password { get; set; }

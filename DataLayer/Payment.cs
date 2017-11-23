@@ -10,7 +10,8 @@ namespace DataLayer
 {
     public class Payment
     {
-
+        [Key]
+        public int PaymentId { get; set; }
         public int CustomerId { get; set; }
         public string OwnerName { get; set; }
         [Required]
@@ -18,9 +19,7 @@ namespace DataLayer
         [Required]
         public int TicketNumber { get; set; }
         public double TotalRent { get; set; }
-        [ForeignKey("CustomerId")]
         public Customer customer { get; set; }
-        [ForeignKey("TicketNumber")]
         public Ticket ticket { get; set; }
         public List<Book_detail> BookDetails { get; set; }
     }
