@@ -11,6 +11,7 @@ namespace DataLayer
     {
         private DataContext db;
 
+
         public AdminRepository()
         { this.db = new DataContext(); }
 
