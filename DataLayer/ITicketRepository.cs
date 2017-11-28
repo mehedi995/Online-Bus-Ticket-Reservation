@@ -10,9 +10,9 @@ namespace DataLayer
     public interface ITicketRepository
     {
         List<Ticket> GetAll();
-        Ticket Get(int id);
+        Ticket Get(string id);
         int Insert(Ticket ticket);
         int Update(Ticket ticket);
-        int Delete(int id);
+        int Delete(string id);
     }
 }
